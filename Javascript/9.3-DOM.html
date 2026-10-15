@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+    <!--  <button>9a</button> 9a -->
+
+
+<!--     <button>9a</button>
+    <button class="second-button">9b</button> 9b-->
+
+
+    <!-- 
+    <button onclick="ChosenMove('heads')">heads</button>
+    <button onclick="ChosenMove('tails')">Tails</button>
+    <p class="showMove"></p>
+
+
+
+9c    -->
+
+<input onkeydown="Enterkey(event)" class="UserName">
+<button onclick="ShowUserName()">Submit</button>
+<p class="User-Name"></p>
+
+
+    <script>
+
+        /* console.log(document.querySelector("button").innerHTML)
+9a */
+
+
+/* 
+         console.log(document.querySelector("button").innerHTML)
+         document.querySelector(".second-button").innerHTML="9b done!" 9b*/
+
+/* 
+
+         function ChosenMove(Usermove){
+            let message = document.querySelector(".showMove")
+
+            message.innerHTML ="You chose: " + Usermove
+         } 
+            
+         
+         9c*/
+
+function ShowUserName(){
+        const InputUserName = document.querySelector(".UserName")
+        console.log(InputUserName.value)
+
+       document.querySelector(".User-Name").innerHTML ="Your name is:" + InputUserName.value 
+    }
+    function Enterkey(event){
+        console.log(event.key)
+        if(event.key === "Enter"){
+              ShowUserName()
+        }
+    }
+
+         
+         
+
+    </script>
+</body>
+</html>

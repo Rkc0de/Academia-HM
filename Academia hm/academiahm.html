@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            color:  rgb(6, 6, 90);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+         ul{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: row;
+            gap: 200px; 
+         }
+        ul li{
+            display: inline-flex;
+            text-align: center;
+            
+        }
+
+        ul li a{
+            
+            text-decoration: none;
+            color: white;
+        }
+
+
+        .sobre{
+            display: flex;
+            text-align: center;
+            justify-content: space-between;
+            justify-content: center;
+            align-items: center;
+            
+            font-size: 32px;
+        }
+        section{
+            margin: 0px 100px;
+            height: 100vh;
+        }
+
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+        }
+
+        .imagem{
+
+         }
+            nav{
+                background-color: rgb(6, 6, 90);
+                color: white;
+                padding: 8px;
+                font-size: 24px;
+            }
+
+            .info{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 10vh;
+                color: rgb(6, 6, 90);
+
+
+            }
+            .titulo_sobre{
+                text-align: center;
+                color: rgb(6, 6, 90);
+                font-size: 80px;
+                
+            }
+            footer{
+                height: 40vh;
+                color: white;
+                background-color: rgb(6, 6, 90);
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+            }
+
+            .footerdiv{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+            .footerdiv ul{
+                display: flex;
+                justify-self: start;
+                align-items: start;
+                flex-direction: column;
+                gap: 20px;
+            }
+
+    </style>
+</head>
+<body>
+    <header class="imagem">
+        <div class="info">
+      <img src="academia_hm.png" alt="Anjo caído" width="100px" height="100">
+    <h1>ACADEMIA DE CIÊNCIA HM</h1>  
+    </div>
+    </header>
+
+<!--  -->
+
+    <nav>
+        <ul>
+            <li><a href="#Sobre" >Sobre</a></li>
+            <li><a href="#Nossos_Trabalhos">Nossos trabalhos</a></li>
+            <li><a href="#Contacte-nos">Contacte-nos</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h1 class="titulo_sobre" id="Sobre">Sobre</h1>
+        <div class="sobre">
+        <div class="box1"><h1>Visão</h1><p>Ser um grupo de referência em Angola e no mundo, pela excelência, inovação e impacto positivo na vida das pessoas, contribuindo para o desenvolvimento sustentavél da sociedade</p></div>
+        <div class="box2"><h1>Missão</h1><p>Oferecer soluções integradas e de qualidade nas áreas de construçáo civil, cotering industrial, formação e tecnologia, criando oportunidades, valorizando talentos e garantindo reesultados que geram oportunidades</p></div>
+        <div class="box2"><h1>Valores</h1><p>Integridade
+                             Excelência   
+                             Inovação 
+                             Respeito 
+                             Responsabilidade social 
+                             Trabalho em equipe 
+                             Compromisso com o futuro</p></div>
+   
+    </div></section>
+    <section>
+        <h1 class="titulo_sobre" id="Nossos_Trabalhos">Nossos Trabalhos</h1>
+        <div class="sobre">
+        <div class="box1"><h1>1</h1><p>Ser um grupo de referência em Angola e no mundo, pela excelência, inovação e impacto positivo na vida das pessoas, contribuindo para o desenvolvimento sustentavél da sociedade</p></div>
+        <div class="box2"><h1>2</h1><p>Oferecer soluções integradas e de qualidade nas áreas de construçáo civil, cotering industrial, formação e tecnologia, criando oportunidades, valorizando talentos e garantindo reesultados que geram oportunidades</p></div>
+
+   
+    </div></section>
+
+    <footer id="Contacte-nos">
+        <div class="footerdiv">
+            <h2>Acesso rápido</h2>
+        <ul>
+            <li><a href="#Sobre" >Sobre</a></li>
+            <li><a href="#Nossos_Trabalhos">Nossos trabalhos</a></li>
+            <li><a href="www.google.com">Contacte-nos</a></li>
+        </ul>
+    </div>
+
+    <div class="infofooter">
+        <h2>Contacte-nos</h2>
+        <p>Email:nostodos@gmail.com</p> 
+        <p>Contacto:935555500</p> 
+        <address>Kilamba</address>
+    </div>
+
+    </footer>
+
+</body>
+</html>
